@@ -1,0 +1,79 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+geometry: margin=1in
+
+author: Avritt Rohwer
+fontawesome: yes
+phone: "616 295 1175"
+email: anrohwer@mtu.edu
+github: avrittrohwer
+web: avrittrohwer.com
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10pt
+linkcolor: blue
+urlcolor: blue
+---
+
+\thispagestyle{empty}
+
+# Relevant skills \hrulefill
+
+- Strong communication skills with team members and customers.
+- Full stack web development, isomorphic JavaScript, product development.
+- Systems and embedded programming in C.
+
+# Experience \hrulefill
+
+**IS Intern** \hfill May 2018 - current
+
+*Warner Norcross + Judd LLP, Grand Rapids MI*
+
+- Prototyped and developed an internal web application aimed to streamline the sales pipeline.
+- Provides continuing remote support and product development.
+
+**Helpdesk Intern** \hfill September 2016 - December 2017
+
+*REMC 1, Houghton MI*
+
+- Provided help-desk services by phone, email, and chat-bot to dozens of school districts.
+- Packaged and deployed software to thousands of computers.
+
+**Shift Manager, Barista** \hfill June 2014 - August 2016
+
+*Biggby Coffee, Grand Rapids MI*
+
+- Provided valued customer assistance, testimonial available.
+- Quickly advanced to a shift manager after only a few months of work.
+
+
+# Education \hrulefill
+
+**BS Computer Science** \hfill September 2016 - current
+
+*Michigan Technological University, Houghton MI*
+
+- GPA: 3.03.
+- Expected Graduation: May 2019.
+
+**High School** \hfill September 2012 - June 2016
+
+*Northview High School, Grand Rapids MI*
+
+- GPA: 4.1, *summa cum laude*.
+
+# Interests \hrulefill
+
+- Skiing, backpacking, fishing.
+- Fault tolerant and self healing systems using an Elixir/Erlang stack.
+- Functional programming paradigm.
+- Extending vim into a sufficient development platform.
+
+\vspace*{\fill}
+\begin{center}
+References available upon request.
+\end{center}
