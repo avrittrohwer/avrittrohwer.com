@@ -24,8 +24,8 @@ urlcolor: blue
 # Relevant skills \hrulefill
 
 - Strong communication skills with team members and customers.
+- Systems software development in C, specifically in a Linux environment.
 - Full stack web development, isomorphic JavaScript, product development.
-- Systems and embedded programming in C.
 
 # Experience \hrulefill
 
@@ -53,7 +53,7 @@ urlcolor: blue
 
 # Education \hrulefill
 
-**BS Computer Science** \hfill September 2016 - current
+**BS, Computer Science; Minor, Mathematical Sciences** \hfill September 2016 - current
 
 *Michigan Technological University, Houghton MI*
 
@@ -69,9 +69,8 @@ urlcolor: blue
 # Interests \hrulefill
 
 - Skiing, backpacking, fishing.
-- Fault tolerant and self healing systems using an Elixir/Erlang stack.
 - Functional programming paradigm.
-- Extending vim into a sufficient development platform.
+- Hacking away at my dotfiles.
 
 \vspace*{\fill}
 \begin{center}
