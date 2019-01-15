@@ -57,8 +57,10 @@ urlcolor: blue
 
 *Michigan Technological University, Houghton MI*
 
-- GPA: 3.03.
+- GPA: 3.11
 - Expected Graduation: May 2019.
+- Awarded a Certificate of Merit for Outstanding Academic Achievements in MA3202 *Introduction to
+  Coding Theory*
 
 **High School** \hfill September 2012 - June 2016
 
