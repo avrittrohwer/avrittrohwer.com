@@ -8,7 +8,7 @@ geometry: margin=1in
 author: Avritt Rohwer
 fontawesome: yes
 phone: "616 295 1175"
-email: anrohwer@mtu.edu
+email: avritt.rohwer@gmail.com
 github: avrittrohwer
 web: avrittrohwer.com
 
@@ -23,31 +23,31 @@ urlcolor: blue
 
 # Relevant skills \hrulefill
 
-- Strong communication skills with team members and customers.
-- Systems software development in C, specifically in a Linux environment.
+- Systems level software development in C, specifically in a Linux environment.
 - Full stack web development, isomorphic JavaScript, product development.
 
 # Experience \hrulefill
 
-**IS Intern** \hfill May 2018 - current
+**IS Intern** \hfill May 2018 - January 2019
 
 *Warner Norcross + Judd LLP, Grand Rapids MI*
 
-- Prototyped and developed an internal web application aimed to streamline the sales pipeline.
-- Provides continuing remote support and product development.
+- Prototyped and developed an internal web application that streamlined the sales pipeline.
+- Integrated the sales pipeline into existing legacy services and workflows.
 
 **Helpdesk Intern** \hfill September 2016 - December 2017
 
 *REMC 1, Houghton MI*
 
-- Provided help-desk services by phone, email, and chat-bot to dozens of school districts.
+- Provided technical help-desk services by phone, email, online chat, and occasionally directly
+  on-site to dozens of school districts.
 - Packaged and deployed software to thousands of computers.
 
 **Shift Manager, Barista** \hfill June 2014 - August 2016
 
 *Biggby Coffee, Grand Rapids MI*
 
-- Provided valued customer assistance, testimonial available.
+- Provided valued customer service, testimonial available upon request.
 - Quickly advanced to a shift manager after only a few months of work.
 
 
@@ -59,8 +59,8 @@ urlcolor: blue
 
 - GPA: 3.11
 - Expected Graduation: May 2019.
-- Awarded a Certificate of Merit for Outstanding Academic Achievements in MA3202 *Introduction to
-  Coding Theory*
+- Awarded a Certificate of Merit for Outstanding Academic Achievements in *Introduction to Coding 
+  Theory*
 
 **High School** \hfill September 2012 - June 2016
 
