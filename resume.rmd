@@ -25,8 +25,17 @@ urlcolor: blue
 
 - Systems level software development in C, specifically in a Linux environment.
 - Full stack web development, isomorphic JavaScript, product development.
+- Knowledge of computer architecture and optimizing compiler concepts.
 
 # Experience \hrulefill
+
+<!-- **Research Experience for Undergraduates (NSF REU)** \hfill January 2019 - current
+
+*Michigan Technological University, Houghton MI*
+
+- Worked on utilizing Future Gated Single Assignment in the context of Demand Driven Execution.
+- Authored a survey paper on Single Assignment Forms.
+-->
 
 **IS Intern** \hfill May 2018 - January 2019
 
@@ -61,12 +70,6 @@ urlcolor: blue
 - Expected Graduation: May 2019.
 - Awarded a Certificate of Merit for Outstanding Academic Achievements in *Introduction to Coding 
   Theory*
-
-**High School** \hfill September 2012 - June 2016
-
-*Northview High School, Grand Rapids MI*
-
-- GPA: 4.1, *summa cum laude*.
 
 # Interests \hrulefill
 
