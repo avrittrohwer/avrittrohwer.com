@@ -24,8 +24,8 @@ urlcolor: blue
 # Relevant skills \hrulefill
 
 - Systems level software development in C, specifically in a Linux environment.
+- Computer architecture, operating systems, and optimizing compilers.
 - Full stack web development, isomorphic JavaScript, product development.
-- Knowledge of computer architecture and optimizing compiler concepts.
 
 # Experience \hrulefill
 
