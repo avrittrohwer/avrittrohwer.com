@@ -1,0 +1,20 @@
+{
+  "name": "Avritt Rohwer",
+  "description": "A personal website for Avritt Rohwer",
+  "background_color": "black",
+  "theme_color": "#17A589",
+  "start_url": "/",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
