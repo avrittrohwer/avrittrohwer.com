@@ -29,14 +29,6 @@ urlcolor: blue
 
 # Experience \hrulefill
 
-<!-- **Research Experience for Undergraduates (NSF REU)** \hfill January 2019 - current
-
-*Michigan Technological University, Houghton MI*
-
-- Worked on utilizing Future Gated Single Assignment in the context of Demand Driven Execution.
-- Authored a survey paper on Single Assignment Forms.
--->
-
 **IS Intern** \hfill May 2018 - January 2019
 
 *Warner Norcross + Judd LLP, Grand Rapids MI*
@@ -62,13 +54,12 @@ urlcolor: blue
 
 # Education \hrulefill
 
-**BS, Computer Science; Minor, Mathematical Sciences** \hfill September 2016 - current
+**BS, Computer Science; Minor, Mathematical Sciences** \hfill September 2016 - May 2019
 
 *Michigan Technological University, Houghton MI*
 
-- GPA: 3.11
-- Expected Graduation: May 2019.
-- Awarded a Certificate of Merit for Outstanding Academic Achievements in *Introduction to Coding 
+- GPA: 3.20
+- Awarded a Certificate of Merit for Outstanding Academic Achievements in *Introduction to Coding
   Theory*
 
 # Interests \hrulefill
