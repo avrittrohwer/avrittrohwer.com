@@ -11,7 +11,10 @@
     <link rel="icon" href="/images/icon-512.png" sizes="512x512" />
 
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:500" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fira+Mono:500"
+    />
 
     <style>
       p,
@@ -26,16 +29,31 @@
 
       html,
       body {
-        margin: 0px;
+        margin: 0 auto;
         padding: 0 1em;
+        max-width: 45em;
         border: 0px;
         font: 1em/1.25 "Fira Mono", monospace;
         background-color: black;
         color: white;
       }
 
+      nav {
+        display: flex;
+        justify-content: space-around;
+      }
+
       a {
         color: #17a589;
+      }
+
+      ul {
+        padding-left: 0;
+        list-style: inside;
+      }
+
+      ul ul {
+        padding-left: 1em;
       }
 
       ul:last-child {
