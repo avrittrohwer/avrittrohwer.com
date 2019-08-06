@@ -11,7 +11,10 @@
     <link rel="icon" href="/images/icon-512.png" sizes="512x512" />
 
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:500" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fira+Mono:500"
+    />
 
     <style>
       p,
@@ -26,16 +29,31 @@
 
       html,
       body {
-        margin: 0px;
+        margin: 0 auto;
         padding: 0 1em;
+        max-width: 45em;
         border: 0px;
         font: 1em/1.25 "Fira Mono", monospace;
         background-color: black;
         color: white;
       }
 
+      nav {
+        display: flex;
+        justify-content: space-around;
+      }
+
       a {
         color: #17a589;
+      }
+
+      ul {
+        padding-left: 0;
+        list-style: inside;
+      }
+
+      ul ul {
+        padding-left: 1em;
       }
 
       ul:last-child {
@@ -45,27 +63,38 @@
   </head>
   <body>
     <h1>Avritt Rohwer</h1>
+    <nav>
+      <a href="mailto:avritt.rohwer@gmail.com">Email</a>
+      <a href="./resume_avritt_rohwer.pdf">Resume</a>
+      <a href="https://github.com/avrittrohwer">GitHub</a>
+    </nav>
     <p>
-      I am a recent graduate of Michigan Technological University where I earned a Bachelor of
-      Science in Computer Science with a minor in Mathematical Sciences. I am currently working as
-      an independent contractor with the Ottawa Area Intermediate School District but I will be
-      starting at Google in the Engineering Residency program this fall.
+      I am a recent graduate of Michigan Technological University where I earned
+      a Bachelor of Science in Computer Science and a minor in Mathematical
+      Sciences. I am currently working as an independent contractor with the
+      Ottawa Area Intermediate School District and I will be starting at Google
+      in the Engineering Residency program this fall.
     </p>
-    <ul>
-      <li><a href="mailto:avritt.rohwer@gmail.com">Email</a></li>
-      <li><a href="./resume_avritt_rohwer.pdf">Resume</a></li>
-      <li><a href="https://github.com/avrittrohwer">GitHub</a></li>
-    </ul>
     <p>
-      Some of my core values are:
+      I value:
     </p>
     <ul>
       <li>Simplicity</li>
       <li>Elegance</li>
-      <li>Minimalism</li>
+      <li>Pragmatism</li>
     </ul>
     <p>
-      Some languages and popular associated libraries I have experience with are:
+      The subject areas I enjoyed most while at college and wish to continue
+      working with are:
+    </p>
+    <ul>
+      <li>Computer architecture</li>
+      <li>Operating systems</li>
+      <li>Programming languages and compilers</li>
+    </ul>
+    <p>
+      Some languages and popular associated libraries I have working experience
+      with are:
     </p>
     <ul>
       <li>
@@ -78,17 +107,14 @@
       <li>
         JavaScript
         <ul>
-          <li>React</li>
-          <li>Polymer</li>
+          <li>Svelte</li>
           <li>Node</li>
-          <li>Redux</li>
-          <li>MobX</li>
+          <li>React</li>
         </ul>
       </li>
       <li>
         C#
         <ul>
-          <li>.NET Core</li>
           <li>ASP.NET Core</li>
           <li>Entity Framework Core</li>
         </ul>
@@ -100,7 +126,6 @@
     <ul>
       <li>Zig</li>
       <li>Erlang</li>
-      <li>Elixir</li>
       <li>Rust</li>
     </ul>
   </body>
