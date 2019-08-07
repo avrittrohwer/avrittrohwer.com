@@ -13,7 +13,7 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Fira+Mono:500"
+      href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500"
     />
 
     <style>
@@ -31,11 +31,19 @@
       body {
         margin: 0 auto;
         padding: 0 1em;
-        max-width: 45em;
+        max-width: 42em;
         border: 0px;
-        font: 1em/1.25 "Fira Mono", monospace;
+        font: 400 1em/1.25 "Fira Mono", monospace;
         background-color: black;
         color: white;
+      }
+
+      body > * {
+        margin: 1rem 0;
+      }
+
+      h1 {
+        font-weight: 500;
       }
 
       nav {
@@ -57,7 +65,7 @@
       }
 
       ul:last-child {
-        margin-bottom: 1.25em;
+        margin-bottom: 1em;
       }
     </style>
   </head>
