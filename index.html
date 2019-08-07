@@ -207,7 +207,7 @@
             next();
           } else {
             // toggle block
-            if (h1.innerHTML.endsWith(block)) {
+            if (h1.innerHTML.slice(-1) == block) {
               h1.innerHTML = currentState;
             } else {
               h1.innerHTML = currentState + block;
