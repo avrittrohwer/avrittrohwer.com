@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
 
     <title>Avritt Rohwer</title>
-    <meta name="description" content="A personal website for Avritt Rohwer" />
+    <meta name="description" content="A professional webpage for Avritt Rohwer." />
     <meta name="theme-color" content="#17A589" />
     <link rel="icon" href="/images/icon-192.png" sizes="192x192" />
     <link rel="icon" href="/images/icon-512.png" sizes="512x512" />
@@ -67,23 +67,21 @@
       <a href="https://github.com/avrittrohwer">GitHub</a>
     </nav>
     <p>
-      I am a recent graduate of Michigan Technological University where I earned
+      I am a junior software engineer working on Google Kubernetes Engine since late 2019.
+      I am a graduate of Michigan Technological University where I earned
       a Bachelor of Science in Computer Science and a minor in Mathematical
       Sciences.
-      I am starting at Google in the Engineering Residency Program this fall.
-
     </p>
     <p>
       I value:
     </p>
     <ul>
       <li>Simplicity</li>
-      <li>Elegance</li>
+      <li>Sustainability</li>
       <li>Pragmatism</li>
     </ul>
     <p>
-      The subject areas I enjoyed most while at college and wish to continue
-      working in are:
+      The subject areas I enjoyed most while at college were:
     </p>
     <ul>
       <li>Computer architecture</li>
@@ -95,6 +93,7 @@
       with are:
     </p>
     <ul>
+      <li>Go</li>
       <li>
         C
         <ul>
@@ -128,6 +127,7 @@
     </ul>
 
     <script>
+      // This script animates the header of this page.
       const block = "\u258F"; // unicode full block character
       const typeRate = 100; // how fast letters are typed
       const blinkRate = 500; // how fast the cursor blinks
@@ -135,78 +135,71 @@
       const h1 = document.querySelector("h1");
       let currentState = h1.innerHTML;
 
-      // start the header animation when page loads
+      // Start animation when the page loads.
       window.addEventListener("load", function startAnimation() {
-        // actions are [ fn, ...arguments ] where fn must take a continuation as its last argument
-        const actions = [
-          [blink, 2],
+        // Animations are [ fn, ...arguments ] where fn must take the next fn to call as its last argument.
+        const animations = [
+          [blink, 1],
           [type, "whoami"],
           [pause, 100],
-          [output, "Avritt Rohwer"],
+          [print, "Avritt Rohwer"],
           [blink, Infinity]
         ];
 
-        // builds a function that calls each member of action
+        // Create and call a function that plays each animation.
         function makeAnimationFn(fn, i) {
           if (i < 0) {
             return fn;
           }
 
-          // get next action, its fn, and its args
-          const action = actions[i];
-          const nextFn = action[0];
-          const nextFnArgs = action.slice(1);
+          const a = animations[i];
+          const nextFn = a[0];
+          const nextFnArgs = a.slice(1);
 
           return makeAnimationFn(
             nextFn.bind.apply(nextFn, [null].concat(nextFnArgs).concat(fn)),
             i - 1
           );
         }
-
-        // make and immediately run animation
-        makeAnimationFn(function() {}, actions.length - 1)();
+        makeAnimationFn(function() {}, animations.length - 1)();
       });
 
-      // pauses for time time
       function pause(time, next) {
         window.setTimeout(next, time);
       }
 
-      // adds output from command
-      function output(output, next) {
-        h1.innerHTML = currentState += "<br>" + output + "<br>> ";
-        next();
-      }
-
-      // types command and adds it to currentState once done
       function type(command, next) {
         let i = 1;
 
         const timeoutId = window.setInterval(function typeLetter() {
           if (i > command.length) {
-            // stop interval, add command to currentState, call continuation
+            // Continue to next fn.
             window.clearInterval(timeoutId);
             currentState += command;
             next();
           } else {
-            // type next letter
+            // Type next letter.
             h1.innerHTML = currentState + command.slice(0, i) + block;
             i += 1;
           }
         }, typeRate);
       }
+      
+      function print(output, next) {
+        h1.innerHTML = currentState += "<br>" + output + "<br>> ";
+       next();
+      }
 
-      // makes a block blink times times
       function blink(times, next) {
         let blinks = 0;
-
+        
         const timeoutId = window.setInterval(function toggleBlock() {
-          if (blinks >= times) {
-            // stop interval, set h1 back to currentState, call continuation
+          if (blinks > times) {
+            // Continue to next fn.
             window.clearInterval(timeoutId);
             next();
           } else {
-            // toggle block
+            // Toggle a block.
             if (h1.innerHTML.slice(-1) == block) {
               h1.innerHTML = currentState;
             } else {
