@@ -21,13 +21,26 @@ urlcolor: blue
 
 \thispagestyle{empty}
 
-# Relevant skills \hrulefill
+# In my work, I strive to:
 
-- Systems level software development in C, specifically in a Linux environment.
-- Computer architecture, operating systems, and optimizing compilers.
-- Full stack web development, isomorphic JavaScript, product development.
+- Intentionally define success metrics in project proposals.
+- Achieve impact with small, iterative deliverables.
+- Implement simple solutions that are easy to understand and maintain.
+- Treat documentation as a first-class engineering artifact.
 
 # Experience \hrulefill
+
+**Software Engineer** \hfill September 2019 - current
+
+*Google Kubernetes Engine, Seattle WA*
+
+- Owned end-to-end delivery of reliability-focused projects.
+- Implemented SLOs and alerts to automatically detect degradation in system performance.
+- Delivered SQL-powered debug dashboards synthesizing multiple data sources to 1) track existing known issues and 2) enable impact and root-cause analysis of unknown issues.
+- Led incident response - assessing impact, prioritizing mitigation, and assisting owners in identifying the root-cause.
+- Root-caused external customer issues and worked with support engineers to clearly communicate the issue and potential fixes.
+- Led internal team retrospectives, facilitating discussion to find process improvements. Owned proposal and delivery of improvements.
+- Proposed and owned toil-reduction of inter-team processes. Worked with stakeholders from both teams to ensure shared success.
 
 **IS Intern** \hfill May 2018 - January 2019
 
@@ -48,7 +61,7 @@ urlcolor: blue
 
 *Biggby Coffee, Grand Rapids MI*
 
-- Provided valued customer service, testimonial available upon request.
+- Provided valued customer service.
 - Quickly advanced to a shift manager after only a few months of work.
 
 
@@ -58,17 +71,10 @@ urlcolor: blue
 
 *Michigan Technological University, Houghton MI*
 
-- GPA: 3.20
+- GPA: 3.20.
 - Awarded a Certificate of Merit for Outstanding Academic Achievements in *Introduction to Coding
-  Theory*
-
-# Interests \hrulefill
-
-- Skiing, backpacking, fishing.
-- Functional programming paradigm.
-- Hacking away at my dotfiles.
+  Theory*.
 
 \vspace*{\fill}
 \begin{center}
-References available upon request.
 \end{center}
