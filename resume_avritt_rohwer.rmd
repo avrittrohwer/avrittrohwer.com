@@ -37,9 +37,9 @@ urlcolor: blue
 - Owned end-to-end delivery of reliability-focused projects.
 - Implemented SLOs and alerts to automatically detect degradation in system performance.
 - Delivered SQL-powered debug dashboards synthesizing multiple data sources to 1) track existing known issues and 2) enable impact and root-cause analysis of unknown issues.
-- Led incident response - assessing impact, prioritizing mitigation, and assisting owners in identifying the root-cause.
-- Root-caused external customer issues and worked with support engineers to clearly communicate the issue and potential fixes.
-- Led internal team retrospectives, facilitating discussion to find process improvements. Owned proposal and delivery of improvements.
+- Led incident responses: assessed impact, prioritized mitigation, and assisted owners in identifying the root-cause.
+- Investigated external customer issues and worked with support engineers to clearly communicate the issue and potential fixes.
+- Led internal team retrospectives: facilitated discussion to explore process improvements. Owned proposal and delivery of improvements.
 - Proposed and owned toil-reduction of inter-team processes. Worked with stakeholders from both teams to ensure shared success.
 
 **IS Intern** \hfill May 2018 - January 2019
@@ -67,12 +67,12 @@ urlcolor: blue
 
 # Education \hrulefill
 
-**BS, Computer Science; Minor, Mathematical Sciences** \hfill September 2016 - May 2019
+**BS, Computer Science; minor, Mathematical Sciences** \hfill September 2016 - May 2019
 
 *Michigan Technological University, Houghton MI*
 
 - GPA: 3.20.
-- Awarded a Certificate of Merit for Outstanding Academic Achievements in *Introduction to Coding
+- Awarded a Certificate of Merit for Outstanding Academic Achievement in *Introduction to Coding
   Theory*.
 
 \vspace*{\fill}
