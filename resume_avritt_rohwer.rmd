@@ -19,28 +19,70 @@ linkcolor: blue
 urlcolor: blue
 ---
 
+\pagenumbering{gobble}
 \thispagestyle{empty}
 
 # In my work, I strive to:
 
-- Intentionally define success metrics in project proposals.
-- Achieve impact with small, iterative deliverables.
 - Implement simple solutions that are easy to understand and maintain.
+- Define success metrics before beginning implementation.
+- Achieve impact with concise, iterative deliverables.
 - Treat documentation as a first-class engineering artifact.
 
 # Experience \hrulefill
 
-**Software Engineer** \hfill September 2019 - current
+**Software Engineer** \hfill September 2022 - March 2023
 
-*Google Kubernetes Engine, Seattle WA*
+*Google.org Fellow, CiviForm*
 
-- Owned end-to-end delivery of reliability-focused projects.
-- Implemented SLOs and alerts to automatically detect degradation in system performance.
-- Delivered SQL-powered debug dashboards synthesizing multiple data sources to 1) track existing known issues and 2) enable impact and root-cause analysis of unknown issues.
-- Led incident responses: assessed impact, prioritized mitigation, and assisted owners in identifying the root-cause.
-- Investigated external customer issues and worked with support engineers to clearly communicate the issue and potential fixes.
-- Led internal team retrospectives: facilitated discussion to explore process improvements. Owned proposal and delivery of improvements.
-- Proposed and owned toil-reduction of inter-team processes. Worked with stakeholders from both teams to ensure shared success.
+- Led enhancements to the [CiviForm cloud deployment
+  tool](https://docs.civiform.us/it-manual/sre-playbook/terraform-deploy-system).
+  Wrote a [6 month roadmap and delivery
+  plan](https://docs.google.com/document/d/1DgKX1uSFHOJooSsBRoefc1VhNIKCBwKHg6ZrGys84cM/edit?usp=sharing)
+  to guide my time.
+- Helped ensure a successful launch in the state of Arkansas. Collaborated with
+  state IT administrators to fix deployment issues and ensure CiviForm
+  integrated into their infrastructure.
+- Designed and implemented the [pgadmin
+  command](https://docs.civiform.us/it-manual/sre-playbook/terraform-deploy-system#aws)
+  allowing for temporary database access via a [web
+  UI](https://www.pgadmin.org/).
+- Designed and implemented [end-to-end
+  testing](https://docs.google.com/document/d/1y1IFnuorFIsGJggMwJdLgAHtGMGPr9XDd8AdXH5VAlw/edit?usp=sharing)
+  of the cloud deployment tool.
+- Designed and implemented [documentation
+  generation](https://docs.google.com/document/d/1jYNeMqa9qK40JhPrtvNehzl-ooBeqQlnbZif2HvhuKw/edit?usp=sharing)
+  for all environment variables the CiviForm server reads from. Added a GitHub
+  action that ensures any added environment variables have corresponding
+  documentation.
+
+**Software Engineer** \hfill September 2019 - August 2022
+
+*Google Kubernetes Engine, Kubernetes Control Plane team*
+
+- Designed and implemented a Kubernetes Control Plane VM bootstrap success rate
+  SLI and SLO. Designed and implemented logs observability pipeline and fleet
+  analytics tooling. Utilized tooling to identify 15 unique failure modes, 6 of
+  which were proactively caught via SLO alerts. Implemented or delegated
+  mitigations as appropriate, achieving consistent per-minor-version,
+  per-location 99.9% success rate.
+- Designed and implemented an oncall ticket responder that provides useful
+  debugging context. Delivered highest-priority functionality for my team,
+  reducing our alert median-time-to-resolution by 18 hours. Wrote a design to
+  make the responder usable and extendable by other teams. The design was
+  implemented by another team who used it reduce their customer issue
+  mean-time-to-resolution by 5 days. The responder is used by 6 teams.
+- Wrote and maintained a fleet analysis Colab (Jupyter notebook) template.
+  Utilized tooling to identify impact of 8 production issues. Facilitated and
+  led 3 team training sessions on data analysis in GKE.
+- Collaborated with our customer support organization to reduce toil. Proposed
+  a streamlined customer outreach process for our team which has saved 100+
+  extraneous tickets from being created. Wrote playbooks enabling support to
+  run common mitigation commands which has saved 6 customer issues from being
+  escalated to our team.
+- Designed a ramp-up project for a new engineer joining
+  the team. Provided one-on-one mentorship enabling successful and timely
+  implementation.
 
 **IS Intern** \hfill May 2018 - January 2019
 
@@ -49,6 +91,8 @@ urlcolor: blue
 - Prototyped and developed an internal web application that streamlined the sales pipeline.
 - Integrated the sales pipeline into existing legacy services and workflows.
 
+\pagebreak
+
 **Helpdesk Intern** \hfill September 2016 - December 2017
 
 *REMC 1, Houghton MI*
@@ -56,14 +100,6 @@ urlcolor: blue
 - Provided technical help-desk services by phone, email, online chat, and occasionally directly
   on-site to dozens of school districts.
 - Packaged and deployed software to thousands of computers.
-
-**Shift Manager, Barista** \hfill June 2014 - August 2016
-
-*Biggby Coffee, Grand Rapids MI*
-
-- Provided valued customer service.
-- Quickly advanced to a shift manager after only a few months of work.
-
 
 # Education \hrulefill
 
@@ -74,7 +110,3 @@ urlcolor: blue
 - GPA: 3.20.
 - Awarded a Certificate of Merit for Outstanding Academic Achievement in *Introduction to Coding
   Theory*.
-
-\vspace*{\fill}
-\begin{center}
-\end{center}
