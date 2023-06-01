@@ -2,7 +2,7 @@
 #
 # Compiles the markdown resume into HTML and PDF.
 #
-# Dependencies: pandoc inotifywait wkhtmltopdf
+# Dependencies: pandoc inotifywait weasyprint
 
 function usage {
     printf \
