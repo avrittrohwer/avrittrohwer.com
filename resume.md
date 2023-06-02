@@ -1,8 +1,7 @@
 <style>
 body {
-  /*font-family: "Liberation Serif";*/
-  font-family: "STIX, Medium";
-  font-size: 15px;
+  font-family: "STIX";
+  font-size: 14px;
 }
 /* weasyprint page options */
 @page {
@@ -49,15 +48,21 @@ table {
 [linkedin.com/in/avrittrohwer](https://www.linkedin.com/in/avrittrohwer)
 </span>
 
-## Summary
+## Professional summary
 
- | | 
+Software Engineer seeking to work on impactful public services. Achieves impact
+via concise, iterative deliverables. Collaborates by implementing simple
+solutions that are easy to maintain and by treating documentation as a
+first-class engineering artifact.
+
+## Key skills
+
+||
 ---|---|---
 Monitoring and Observability | SLIs/SLOs | Data-driven analysis
 Kubernetes | Google Cloud Platform | Amazon Web Services
 Go | Relational databases | SQL
 Github actions | Shell scripting | Terraform
-.NET Core | Microsoft IIS | Microsoft SQL Server
 
 ## Experience
 
