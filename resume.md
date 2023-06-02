@@ -1,49 +1,69 @@
 <style>
+body {
+  /*font-family: "Liberation Serif";*/
+  font-family: "STIX, Medium";
+  font-size: 15px;
+}
 /* weasyprint page options */
 @page {
-  size: 8.4in 12in;
-  margin: 0.25in;
+  size: Letter;
+  margin: 1em 2em 0 2em;
 }
-
 h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
-
 h2 {
     font-size: 1.25em;
 }
-
 h3, h4 {
     font-size: 1em;
 }
-
-h2, h3 {
-    margin-bottom: 0;
-}
-
-h1, p {
+p, h3 {
     margin-top: 0;
     margin-bottom: 0;
+}
+ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+}
+#links {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDEDED;
+    padding: 0.5em;
+    border-radius: 0.25em;
+}
+table {
+    width: 100%;
+    border: 0.25em solid #EDEDED;
+    border-radius: 0.25em;
+    margin-top: 1em;
 }
 </style>
 
 # Avritt Rohwer
 
-- avritt.rohwer@gmail.com
-- [github.com/avrittrohwer](https://github.com/avrittrohwer)
-- [linkedin.com/in/avrittrohwer](https://www.linkedin.com/in/avrittrohwer)
+<span id="links">
+[avritt.rohwer@gmail.com](mailto:avritt.rohwer@gmail.com)
+[github.com/avrittrohwer](https://github.com/avrittrohwer)
+[linkedin.com/in/avrittrohwer](https://www.linkedin.com/in/avrittrohwer)
+</span>
 
-**In my work, I strive to:**
+## Summary
 
-- Implement simple solutions that are easy to understand and maintain.
-- Achieve impact via concise, iterative deliverables.
-- Treat documentation as a first-class engineering artifact.
+ | | 
+---|---|---
+Monitoring and Observability | SLIs/SLOs | Data-driven analysis
+Kubernetes | Google Cloud Platform | Amazon Web Services
+Go | Relational databases | SQL
+Github actions | Shell scripting | Terraform
+.NET Core | Microsoft IIS | Microsoft SQL Server
 
 ## Experience
 
 ### Software Engineer, Google Kubernetes Engine
 
-[*September 2019 - current*]{.date}
+*September 2019 - current*
 
 - Designed and implemented a Kubernetes Control Plane VM bootstrap success rate
   SLI and SLO. Designed and implemented logs observability pipeline and fleet
@@ -51,15 +71,15 @@ h1, p {
   which were proactively caught via SLO alerts. Implemented or delegated
   mitigations as appropriate, achieving consistent per-minor-version,
   per-location 99.9% success rate.
+- Wrote and maintained a fleet analysis Colab (Jupyter notebook) template.
+  Utilized tooling to identify impact of 8 production issues. Facilitated and
+  led 3 team training sessions on data analysis.
 - Designed and implemented an oncall ticket responder that provides useful
   debugging context. Delivered highest-priority functionality for my team,
   reducing our alert median-time-to-resolution by 18 hours. Wrote a design to
   make the responder usable and extendable by other teams. The design was
   implemented by another team who used it reduce their customer issue
   mean-time-to-resolution by 5 days.
-- Wrote and maintained a fleet analysis Colab (Jupyter notebook) template.
-  Utilized tooling to identify impact of 8 production issues. Facilitated and
-  led 3 team training sessions on data analysis.
 - Collaborated with customer support organization to reduce toil. Proposed
   a streamlined customer outreach process for our team which has saved 100+
   extraneous tickets from being created. Wrote playbooks and adjusted
@@ -78,20 +98,19 @@ h1, p {
 - Helped ensure a successful launch in the state of Arkansas. Collaborated with
   state IT administrators to fix deployment issues and ensure CiviForm
   integrated into their infrastructure.
+- [Designed](https://docs.google.com/document/d/1jYNeMqa9qK40JhPrtvNehzl-ooBeqQlnbZif2HvhuKw/edit#heading=h.bknox3ib8wpb)
+  and implemented [documentation
+  generation](https://docs.civiform.us/it-manual/sre-playbook/server-environment-variables)
+  for all environment variables the CiviForm server reads from. Integrated into
+  developer workflows via a [GitHub
+  action](https://github.com/civiform/civiform/blob/main/.github/workflows/pr_env_var_docs.yaml).
+- Designed and implemented [end-to-end
+  testing](https://docs.google.com/document/d/1y1IFnuorFIsGJggMwJdLgAHtGMGPr9XDd8AdXH5VAlw/edit?usp=sharing)
+  of the cloud deployment tool.
 - Designed and implemented the [pgadmin
   command](https://docs.civiform.us/it-manual/sre-playbook/terraform-deploy-system#aws)
   allowing for temporary database access via a [web
   UI](https://www.pgadmin.org/).
-- Designed and implemented [end-to-end
-  testing](https://docs.google.com/document/d/1y1IFnuorFIsGJggMwJdLgAHtGMGPr9XDd8AdXH5VAlw/edit?usp=sharing)
-  of the cloud deployment tool.
-- [Designed](https://docs.google.com/document/d/1jYNeMqa9qK40JhPrtvNehzl-ooBeqQlnbZif2HvhuKw/edit#heading=h.bknox3ib8wpb)
-  and implemented [documentation
-  generation](https://docs.civiform.us/it-manual/sre-playbook/server-environment-variables)
-  for all environment variables the CiviForm server reads from. Added a [GitHub
-  action](https://github.com/civiform/civiform/blob/main/.github/workflows/pr_env_var_docs.yaml)
-  that ensures any added environment variables have corresponding
-  documentation.
 
 ### IS Intern, Warner Norcross + Judd LLP
 
@@ -99,7 +118,7 @@ h1, p {
 
 - Prototyped and developed a sales-lead management application. Leads were
   tracked per-user with rollup views available to management.
-- Application was implemented via a React frontend which talked to a .NET CORE
+- Application was implemented via a React frontend which talked to a .NET Core
   backend deployed on Microsoft IIS. Data was stored in a Microsoft SQL Server
   database.
 - Implemented customer contact import from Outlook and a legacy CRM SOAP API.
@@ -116,7 +135,7 @@ h1, p {
 
 ### BS, Computer Science; minor, Mathematical Sciences
 
-*Michigan Technological University. September 2016 - May 2019.*
+*Michigan Technological University. September 2016 - May 2019*
 
 - Awarded a Certificate of Merit for Outstanding Academic Achievement in
   [Introduction to Coding Theory](https://pages.mtu.edu/~tonchev/3202f18.pdf).
