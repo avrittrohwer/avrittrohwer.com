@@ -48,49 +48,66 @@ table {
 [linkedin.com/in/avrittrohwer](https://www.linkedin.com/in/avrittrohwer)
 </span>
 
-## Professional summary
-
-Software Engineer seeking to work on impactful public services. Achieves impact
-via concise, iterative deliverables. Collaborates by implementing simple
-solutions that are easy to maintain and by treating documentation as a
-first-class engineering artifact.
-
-## Key skills
-
-||
----|---|---
-Monitoring and Observability | SLIs/SLOs | Data-driven analysis
-Kubernetes | Google Cloud Platform | Amazon Web Services
-Go | Relational databases | SQL
-Github actions | Shell scripting | Terraform
-
 ## Experience
 
 ### Software Engineer, Google Kubernetes Engine
 
 *September 2019 - current*
 
+- Led the GKE engagement successfully landing a key customer evaluating TPUs
+  and GCP. Regularly met to understand needs and advise on how to best utilize
+  GKE and Kubernetes. Provided guidance on how to integrate GKE node
+  auto-provisioning and Kueue, enabling researchers to rapidly experiment with
+  different TPU slice topologies during the proof-of-concept evaluation phase.
+  Worked with GKE scalability and networking teams to ensure the customer had a
+  successful scale-up to tens of thousands of nodes after the proof-of-concept
+  phase.
+- Guided customers on how to use Kueue, JobSet, and LeaderWorkerSet to
+  orchestrate AI/ML training and inference jobs on GKE. Used customer feedback
+  to improve docs ([1](https://github.com/kubernetes-sigs/kueue/pull/3287),
+  [2](https://github.com/kubernetes-sigs/kueue/pull/3517),
+  [3](https://github.com/kubernetes-sigs/jobset/pull/702)), [add
+  observability](https://github.com/kubernetes-sigs/kueue/issues/4038), and
+  inform feature requests addressing missing functionality
+  ([1](https://github.com/kubernetes-sigs/kueue/issues/4471),
+  [2](https://github.com/kubernetes-sigs/lws/issues/257)).
+- Collaborated with the Pathways on Cloud team to ensure successful launch at
+  Cloud Next. Designed usage of JobSet to deploy a Pathways Cluster. Wrote a
+  [user
+  guide](https://cloud.google.com/ai-hypercomputer/docs/workloads/pathways-on-cloud/pathways-interactive-mode)
+  on how to deploy and connect to an interactive Pathways deployment.
 - Designed and implemented a Kubernetes Control Plane VM bootstrap success rate
   SLI and SLO. Designed and implemented logs observability pipeline and fleet
   analytics tooling. Utilized tooling to identify 15 unique failure modes, 6 of
   which were proactively caught via SLO alerts. Implemented or delegated
   mitigations as appropriate, achieving consistent per-minor-version,
   per-location 99.9% success rate.
+- Designed and implemented SLIs and SLOs for the service enabling [GKE
+  DNS-based
+  endpoints](https://cloud.google.com/blog/products/containers-kubernetes/new-dns-based-endpoint-for-the-gke-control-plane).
+  Investigated error events, fixed bugs and increased system observability to
+  eliminate sources of false positives.
+- Wrote an oncall ticket responder (Cluster Clippy) that provides useful
+  debugging context, reducing alert median-time-to-resolution by 18 hours.
+  Wrote a design to make the responder extendable by other teams. Another team
+  implemented the design and reduced their customer issue
+  mean-time-to-resolution by 5 days.
+- Collaborated with customer support organization to reduce toil. Proposed a
+  streamlined customer outreach process which saved 100+ extraneous tickets
+  from being created within a year of using the new process. Wrote playbooks
+  and adjusted permission policies enabling support engineers to run common
+  mitigation commands.
 - Wrote and maintained a fleet analysis Colab (Jupyter notebook) template.
   Utilized tooling to identify impact of 8 production issues. Facilitated and
   led 3 team training sessions on data analysis.
-- Designed and implemented an oncall ticket responder that provides useful
-  debugging context. Delivered highest-priority functionality for my team,
-  reducing our alert median-time-to-resolution by 18 hours. Wrote a design to
-  make the responder usable and extendable by other teams. The design was
-  implemented by another team who used it reduce their customer issue
-  mean-time-to-resolution by 5 days.
-- Collaborated with customer support organization to reduce toil. Proposed
-  a streamlined customer outreach process for our team which has saved 100+
-  extraneous tickets from being created. Wrote playbooks and adjusted
-  permission policies enabling support engineers to run common mitigation commands.
-- Designed a ramp-up project for a new engineer joining the team. Provided
-  one-on-one mentorship enabling successful implementation.
+- Wrote and submitted an internship proposal to make Konnectivity Network Proxy
+  support a dynamic number of proxy servers. Interviewed and selected
+  internship candidates. Supported and supervised the hired candidate who
+  [successfully
+  delivered](https://github.com/kubernetes-sigs/apiserver-network-proxy/pulls?q=author%3Acarreter+is%3Amerged)
+  the functionality, removing a blocker to adding or removing GKE Kubernetes
+  Control Plane VM replicas without having to recreate all other Control Plane
+  VMs in the cluster.
 
 ### Software Engineer, Google.org Fellow on CiviForm
 
@@ -121,12 +138,11 @@ Github actions | Shell scripting | Terraform
 
 *May 2018 - January 2019*
 
-- Prototyped and developed a sales-lead management application. Leads were
-  tracked per-user with rollup views available to management.
-- Application was implemented via a React frontend which talked to a .NET Core
-  backend deployed on Microsoft IIS. Data was stored in a Microsoft SQL Server
-  database.
-- Implemented customer contact import from Outlook and a legacy CRM SOAP API.
+- Designed and implemented a sales-lead management application. Leads were
+  tracked per-user with rollup views available to management. Wrote a React
+  frontend and a .NET Core backend deployed on Microsoft IIS. Designed a
+  database schema deployed in Microsoft SQL Server. Implemented customer
+  contact import functionality from Outlook and a legacy CRM SOAP API.
 
 ### Helpdesk Intern, REMC 1
 
