@@ -53,39 +53,30 @@ table {
 
 ## Professional Experience
 
-### Senior Site Reliability Engineer, Exygy
+### Site Reliability Engineer, Google Kubernetes Engine
 
-*June 2025 - current*
+*April 2026 - current*
 
+<br/>
+<br/>
+
+### Site Reliability Engineer, Exygy
+
+*June 2025 - April 2026*
+
+- [Designed and
+  implemented](https://github.com/bloom-housing/bloom/pulls?q=is%3Apr+is%3Amerged+author%3Aavrittrohwer+feat%3A+)
+  Bloom [AWS terraform infrastructure](https://github.com/bloom-housing/bloom/tree/main/infra),
+  enabling governments to easily self-deploy Bloom in their own AWS organizations.
 - Wrote [cost modelling](https://github.com/avrittrohwer/cloud-cost-modelling) interactive python
   notebooks to model different CiviForm cloud infrastructure questions, comparing GCP Cloudrun, GCP
   GKE, and AWS ECS.
-- [Designed and
-  implemented](https://github.com/bloom-housing/bloom/pulls?q=is%3Apr+is%3Amerged+author%3Aavrittrohwer+)
-  Bloom AWS terraform infrastructure, enabling governments to easily self-deploy Bloom in their own
-  AWS organizations.
 
 ### Software Engineer, Google Kubernetes Engine
 
 *September 2019 - June 2025*
 
 <br/>
-
-*People management contributions*
-
-- Wrote and submitted an internship proposal to make Konnectivity Network Proxy support a dynamic
-  number of proxy servers. Interviewed and selected internship candidates. Supported and supervised
-  the hired candidate who [successfully
-  delivered](https://github.com/kubernetes-sigs/apiserver-network-proxy/pulls?q=author%3Acarreter+is%3Amerged)
-  the functionality, removing a blocker to adding or removing GKE Kubernetes Control Plane VM
-  replicas without having to recreate all other Control Plane VMs in the cluster.
-- Volunteered as a student group advisor/coach with the [Break Through Tech AI challenge
-  program](https://www.linkedin.com/posts/avrittrohwer_womenintech-breakthroughtech-artificialintelligence-activity-7274863629684858881-I1VD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEF-t20BRMH1D8BJ95RuyB2dInJ_z8IkJaE)
-  and with multiple [Google Tech
-  Exchange](https://research.google/pubs/google-tech-exchange-an-industry-academic-partnership-that-prepares-black-and-latinx-undergraduates-for-high-tech-careers/)
-  groups. Coordinated team check-ins and individual 1:1s. Graded assignements and provided feedback
-  on opportunities to grow/improve. Worked with each student to define their personal goals for the
-  program and tailored my support accordingly.
 
 *Individual contributions*
 
@@ -123,6 +114,22 @@ table {
   outreach process which saved 100+ extraneous tickets from being created within a year of using the
   new process. Wrote playbooks and adjusted permission policies enabling support engineers to run
   common mitigation commands.
+
+*Team mentorship contributions*
+
+- Wrote and submitted an internship proposal to make Konnectivity Network Proxy support a dynamic
+  number of proxy servers. Interviewed and selected internship candidates. Supported and supervised
+  the hired candidate who [successfully
+  delivered](https://github.com/kubernetes-sigs/apiserver-network-proxy/pulls?q=author%3Acarreter+is%3Amerged)
+  the functionality, removing a blocker to adding or removing GKE Kubernetes Control Plane VM
+  replicas without having to recreate all other Control Plane VMs in the cluster.
+- Volunteered as a student group advisor/coach with the [Break Through Tech AI challenge
+  program](https://www.linkedin.com/posts/avrittrohwer_womenintech-breakthroughtech-artificialintelligence-activity-7274863629684858881-I1VD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEF-t20BRMH1D8BJ95RuyB2dInJ_z8IkJaE)
+  and with multiple [Google Tech
+  Exchange](https://research.google/pubs/google-tech-exchange-an-industry-academic-partnership-that-prepares-black-and-latinx-undergraduates-for-high-tech-careers/)
+  groups. Coordinated team check-ins and individual 1:1s. Graded assignements and provided feedback
+  on opportunities to grow/improve. Worked with each student to define their personal goals for the
+  program and tailored my support accordingly.
 
 ### Software Engineer, Google.org Fellow on CiviForm
 
@@ -171,7 +178,7 @@ table {
 
 - Volunteer ski instructor at [Meany
   Lodge](https://www.mountaineers.org/locations-lodges/meany-lodge). Received PSIA-AASI Alpine Level
-  1 certification. Enjoys teaching adult beginners.
+  1 certification.
 
 ## Education
 
