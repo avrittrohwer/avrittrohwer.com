@@ -67,7 +67,9 @@ table {
 - [Designed and
   implemented](https://github.com/bloom-housing/bloom/pulls?q=is%3Apr+is%3Amerged+author%3Aavrittrohwer+feat%3A+)
   Bloom [AWS terraform infrastructure](https://github.com/bloom-housing/bloom/tree/main/infra),
-  enabling governments to easily self-deploy Bloom in their own AWS organizations.
+  enabling governments to easily self-deploy Bloom in their own AWS organizations. Used by Los
+  Angeles Housing Department at
+  [https://access.housing.lacity.gov](https://access.housing.lacity.gov).
 - Wrote [cost modelling](https://github.com/avrittrohwer/cloud-cost-modelling) interactive python
   notebooks to model different CiviForm cloud infrastructure questions, comparing GCP Cloudrun, GCP
   GKE, and AWS ECS.
